@@ -1,0 +1,93 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	display: flex;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.orga, .projects {
+	display: flex;
+	min-height: 100vh;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+}
+
+.orga {
+	background: #2B3542;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+}
+
+.subtitle {
+	font-size: 1.3em;
+}
+ 
+img.logo {
+	max-height: 25vh;
+}
+
+.dev a,
+.dev a:visited,
+.dev a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.devs {
+	display: flex;
+	margin-top: 30px;
+}
+
+.dev {
+	margin: 0 20px;
+	text-align: center;
+}
+
+.dev .face img {
+	border-radius: 50%;
+	width: 10vw;
+}
+
+.dev .fullname {
+	color: #AAA;
+}
+
+.copyright {
+	/*margin-top: 50px;*/
+	font-size: 0.8em;
+	position: absolute;
+	bottom: 20px;
+}
+
+.icon {
+	color: #ec407a;
+}
+
+.projects {
+	background: #353f4c;
+}
+
+.project {
+	background: #3f4956;
+	border-bottom: 1px solid #353f4c;
+}
+
+.project a,
+.project a:visited,
+.project a:hover {
+	text-decoration: none;
+	color: #DDD;
+}
+
+.project a .content {
+	padding: 20px;
+}
