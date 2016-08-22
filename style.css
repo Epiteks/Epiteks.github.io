@@ -62,7 +62,6 @@ img.logo {
 }
 
 .copyright {
-	/*margin-top: 50px;*/
 	font-size: 0.8em;
 	position: absolute;
 	bottom: 20px;
@@ -90,4 +89,16 @@ img.logo {
 
 .project a .content {
 	padding: 20px;
+}
+
+@media screen and (max-width: 1000px)
+{
+	body {
+		flex-direction: column;
+	}
+
+	.orga, .projects {
+		width: 100%;
+		min-height: 50vh;
+	}
 }
