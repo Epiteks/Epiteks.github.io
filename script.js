@@ -57,7 +57,7 @@ function getRepos() {
 
 		var html =
 "		<div class='project'>"+
-"			<a href={{url}}' target='_blank'>"+
+"			<a href='{{url}}' target='_blank'>"+
 "				<div class='content'>"+
 "					<h4>{{name}}</h4>"+
 "					<p class='desc'>{{desc}}</p>"+
