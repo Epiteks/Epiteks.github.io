@@ -81,7 +81,6 @@ function getRepos() {
 	var url = "/orgs/Epiteks/repos";
 	var res = req(url);
 
-	console.log("REPOS");
 	for (var i = 0; i < res.length; i++) {
 		addRepo(res[i]);
 	}
