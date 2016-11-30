@@ -71,6 +71,8 @@ img.logo {
 
 .projects {
 	background: #353f4c;
+	overflow: scroll;
+	height: 100vh;
 }
 
 .project {
