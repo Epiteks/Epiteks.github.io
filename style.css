@@ -101,4 +101,8 @@ img.logo {
 		width: 100%;
 		min-height: 50vh;
 	}
+	
+	.projects {
+		overflow: initial;
+	}
 }
